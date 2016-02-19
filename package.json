@@ -4,7 +4,8 @@
   "description": "A bot for Crooked Labs",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node bot.js",
+    "dev": "node bot.js"
   },
   "dependencies": {
     "botkit": "howdyai/botkit",
