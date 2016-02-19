@@ -1,1 +1,1 @@
-node crookbot.js
+web: npm start
