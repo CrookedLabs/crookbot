@@ -3,6 +3,8 @@ var redis = require('botkit/lib/storage/redis_storage');
 var http = require('http');
 var url = require('url');
 
+console.log(process);
+
 var redisURL = url.parse(process.env.REDISCLOUD_URL);
 var redisStorage = redis({
     namespace: 'botkit-example',
