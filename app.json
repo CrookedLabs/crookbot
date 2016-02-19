@@ -1,8 +1,8 @@
 {
-    "name": "botkit-heroku-redis-example",
-    "description": "Demonstrates how to use botkit with Redis storage on Heroku.",
+    "name": "Crookbot",
+    "description": "A bot for Crooked Labs",
     "keywords": ["slack", "chatbot"],
-    "repository": "https://github.com/horimislime/botkit-heroku-redis-example",
+    "repository": "https://github.com/CrookedLabs/crookbot.git",
     "env": {
         "SLACK_TOKEN": {
             "description": "Slack bot token"
