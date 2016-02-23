@@ -36,11 +36,11 @@ controller.hears(['call me (.*)'],'direct_message,direct_mention,mention',functi
   });
 });
 
-controller.hears(['hey crookbot'], 'direct_message, direct_mention, mention, ambient', function(bot, message) {
+controller.hears(['hey crookbot'],'direct_message,direct_mention,mention,ambient', function(bot, message) {
   bot.reply(message, "Yes, is there something I can do for you assholes? I'm pretty lazy, so make it quick, mmk?");
 });
 
-controller.hears(["introduce yourself", "intro yourself"], 'direct_message, ambient', function(bot, message) {
+controller.hears(["introduce yourself", "intro yourself"],'direct_message,ambient', function(bot, message) {
   bot.startConversation(message, function(err, convo) {
     convo.ask('Ugh, wtf. Really?\n',[
       {
@@ -69,7 +69,7 @@ controller.hears(["introduce yourself", "intro yourself"], 'direct_message, ambi
   });
 });
 
-controller.hears(["who the hottest wife ever"], 'direct_message', function(bot, message) {
+controller.hears(["who the hottest wife ever"],'direct_message', function(bot, message) {
   bot.reply(message, "That Russian smokeshow Masha, what's who.\n I'd gladly tap that with my robot boner :eggplant:");
 });
 
